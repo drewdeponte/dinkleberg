@@ -1,4 +1,5 @@
-$font-core: 'Open Sans', sans-serif;
+$font-core: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 $font-alt: 'Source Code Pro', monospace;
 
 $color-black: rgba(0,0,0,.84);
@@ -10,6 +11,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: $font-core;
+    line-height: 1.45;
+    font-size: 1.1875rem;
+    -webkit-font-smoothing: antialiased;
+    color: #374b61;
 }
 
 .container {
@@ -104,6 +109,8 @@ code {
         color: $color-black;
         border-bottom: 1px solid $color-lgrey;
     }
+
+    font-size: 14px;
 }
 
 .base-list {
